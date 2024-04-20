@@ -1,2 +1,2 @@
 # module3-solution
- HTML CSS and Javascript for Web Developers (META)
+ HTML CSS and Javascript for Web Developers (Yaakov Chaikin)
