@@ -1,0 +1,53 @@
+/* Small Devices - landscape phones */
+@media (max-width: 567px){
+    
+  .chicken-container, .sushi-container, .beef-container {
+    float: left;
+    }
+    .chicken-container {
+      width: 100%;
+      background-color: green;
+    }
+    .sushi-container {
+      width: 100%;
+    }
+    .beef-container {
+      width: 100%;
+    }
+  }
+  
+  /* Medium devices - tablet*/
+  @media (min-width: 568px) and (max-width: 991px) {     /*اگر اینجا مکس رو پاک کنم بین رنگ زرد و قرمز همپوشانی اتفاق میافته*/
+    
+    .chicken-container, .sushi-container, .beef-container {
+      float: left;
+    }
+    .chicken-container {
+      width: 50%;
+    }
+    .sushi-container {
+      width: 50%;
+      background-color: orange;
+    }
+    .beef-container {
+      width: 100%;
+    }
+  }
+
+  /* Large devices - desktop */
+  @media (min-width: 992px) {
+    
+      .chicken-container, .sushi-container, .beef-container {
+        float: left;
+      }
+      .chicken-container {
+        width: 33%;
+      }
+      .sushi-container {
+        width: 33%;
+      }
+      .beef-container {
+        width: 33%;
+        background-color: red;
+      }
+    }
