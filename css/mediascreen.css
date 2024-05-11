@@ -23,14 +23,14 @@
       float: left;
     }
     .chicken-container {
-      width: 50%;
+      width: 100%;
     }
     .beef-container {
-      width: 100%;
+      width: 45%;
       background-color: orange;
     }
     .sushi-container {
-      width: 50%;
+      width: 45%;
     }
   }
 
@@ -39,15 +39,16 @@
     
       .chicken-container, .sushi-container, .beef-container {
         float: left;
+        margin-left: 10px;
       }
       .chicken-container {
-        width: 33%;
+        width: 32%;
       }
       .beef-container {
-        width: 33%;
+        width: 32%;
       }
       .sushi-container {
-        width: 33%;
+        width: 32%;
         background-color: red;
       }
     }

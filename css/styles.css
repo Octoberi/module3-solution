@@ -22,21 +22,15 @@ main h2 {
   padding: 20px;
   font-size: 32px;
 }
-
-section {
-    display: flex;
-    column-gap: 20px;
-    margin: 20px;
-}
-
 /* title for each card menu */
 h3 {
     text-align: center;
     padding-bottom: 10px;
 }
 
-article {
-    padding: 5px 20px 0px 20px;
+.container {
+    padding: 20px 20px 20px 20px;
     background-color: #999999;
     text-align: justify;
+    margin: 0px 10px 10px 0px;
 }
